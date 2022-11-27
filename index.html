@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculadora de operações básicas:</h1>
+    <form action="#">
+        <label for="">Número 1</label>
+        <input id="valor1" type="number">
+        <label for="">Operação</label>
+        <input id="operacao" type="text">
+        <label for="">Número 2</label>
+        <input id="valor2" type="number">
+    </form>
+    <button onclick="calcular()">Calcular</button>
+    <div id="resultado">
+        <label id="caixaResultado"></label>
+    </div>
+
+    <h1>Calculadora de gastos com energia:</h1>
+    <form action="#">
+        <label for="">Quantidade Kwh:</label>
+        <input id="qtdeKwh" type="number">
+        <label for="">Valor unitário Kwh:</label>
+        <input id="valorKwh" type="number">
+    </form>
+    <button onclick="calculoEnergia()">Calcular</button>
+    <div id="resultado2" >
+        <label id="caixaResultado2"></label>
+    </div>
+
+    <h1>Mostrar maior valor:</h1>
+    <form action="#">
+        <label for="">Digite os valores separados por vírgula:</label>
+        <input id="valores"type="text">
+    </form>
+    <button onclick="mostrarMaiorValor1()">Mostrar maior valor</button>
+    <div id="valores1">
+        <label for=""></label>
+    </div>
+
+    <h1> Mostrar quantas pessoas são maior de idade e quantas não:</h1>
+    <form action="#">
+        <label for="">Digite as idades separadas por vírgula:</label>
+        <input id="idades" type="text">
+    </form>
+    <button onclick="mostrarMaioreseMenores()">Mostrar maiores e menores de idade</button>
+    <div id="mostrarMenorEMaiorValor">
+        <label for=""></label>
+    </div>
+
+
+</body>
+</html>
